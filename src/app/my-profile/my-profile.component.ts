@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class MyProfileComponent {
 
+  title = 'My Profile - Master Branch';
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
 }
