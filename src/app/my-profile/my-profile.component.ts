@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-profile.component.css']
 })
 export class MyProfileComponent {
+  title = 'My Profile - Feature Branch';
 
+  constructor() { }
+
+  ngOnInit(): void {
+  }
 }
