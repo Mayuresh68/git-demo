@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-profile.component.css']
 })
 export class MyProfileComponent {
+  title = 'My Profile - Feature Branch';
 
-  title = 'My Profile - Master Branch';
+  // title = 'My Profile - Master Branch';
 
   constructor() { }
 
